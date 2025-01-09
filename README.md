@@ -71,7 +71,7 @@ Local Setup: Easy to deploy locally using Docker
    
    `docker-compose up -d`
    
- ### 3.Execute the pipeline**
+ ### 3.Execute the pipeline
   
    Run the below command.
  
