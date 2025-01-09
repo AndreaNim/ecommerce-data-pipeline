@@ -75,7 +75,7 @@ Local Setup: Easy to deploy locally using Docker
   
    Run the below command.
  
-   `python main.py`
+   ` python -m ecommerce_pipeline.main `
  
  ### 4.Verify Data in MongoDB
  
