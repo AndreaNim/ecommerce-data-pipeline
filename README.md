@@ -55,9 +55,9 @@ Local Setup: Easy to deploy locally using Docker
  1. Python
  2. Docker & Docker Compose
  
- ### Let’s get started
+ ## Let’s get started
  
- **1.Add Dependencies**
+ ### 1.Add Dependencies
  
    Add the required libraries by running the below command.
  
@@ -65,19 +65,19 @@ Local Setup: Easy to deploy locally using Docker
  
   This will install pandas,pymongo and docker-compose.
  
- **2.Start the MongoDB container**
+ ### 2.Start the MongoDB container
  
    Run the below command.
    
    `docker-compose up -d`
    
- **3.Execute the pipeline**
+ ### 3.Execute the pipeline**
   
    Run the below command.
  
    `python main.py`
  
- **4.Verify Data in MongoDB**
+ ### 4.Verify Data in MongoDB
  
  There are different Options which you can choose to use.
 
@@ -104,7 +104,7 @@ Local Setup: Easy to deploy locally using Docker
       This connects to the default instance at localhost:27017
    
     
-5.Aggregate Queries
+ ### 5.Aggregate Queries
  
  1.Total Orders Per Product: Groups orders by productId and calculates the total quantity ordered for each product.
  
